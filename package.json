@@ -1,0 +1,19 @@
+{
+  "name": "coderbytechallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "v16.14.2"
+  },
+  "scripts": {
+    "cypress:web": "npx cypress open",
+    "cypress:headless": "npx cypress run --browser electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.0.3"
+  }
+}
